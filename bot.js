@@ -22,7 +22,7 @@ client.on('ready', async() => {
 var server = "539880579479633947"; // ايدي السررفر
 var channel = "539880579479633949";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**شششششششششششششششششششششششششششششششششششششششششششششششششششششششششششسم دين امكو يا لباوي  **')
+    client.guilds.get(server).channels.get(channel).send('#daily  ')
     },86400);
 })
 
@@ -39,16 +39,16 @@ client2.on('message', message => {
 });
 
 client2.on('ready', async() => {
-var server = "527911586023735593"; // ايدي السررفر
-var channel = "527911586023735597";//ايدي الروم
+var server = "539880579479633947"; // ايدي السررفر
+var channel = "539880579479633949";//ايدي الروم
     setInterval(()=>{
     client2.guilds.get(server).channels.get(channel).send('**كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز **')
     },305);
 })
 
 client2.on('ready', async() => {
-var server = "527911586023735593"; // ايدي السررفر
-var channel = "527911586023735597";//ايدي الروم
+var server = "539880579479633947"; // ايدي السررفر
+var channel = "539880579479633949";//ايدي الروم
     setInterval(()=>{
     client2.guilds.get(server).channels.get(channel).send('#daily')
     },86400);
